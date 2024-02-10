@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+}
+
+aside h1{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+nav{
+    position: fixed;
+    border-right: 2px solid ;
+    min-width: 220px;
+    max-width: 500px;
+    height: 100%;
+}
+main{
+    margin-left: 240px;
+}
+
+main header{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+margin: 20px 20px 30px 0px;
+}
+
+section{
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+aside a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    min-width: 220px;
+    max-width: 220px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+
+
+code{
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+

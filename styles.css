@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+
+nav ul{
+    display: flex;
+    background-color: brown;
+    padding: 20px;
+    justify-content: end;
+}
+
+nav ul li{
+margin-left: 50px;
+font-size: 23px;
+font-weight: 500;
+font-family: monospace;
+list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#hero{
+    min-height: 700px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: linear-gradient(to left, #202022, #363738 );
+    transition: 0.5s;
+}
+
+#hero img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#hero img:hover{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+
+#hero div{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#hero div h1{
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+#hero div p{
+    font-size: 30px;
+    color: rgb(202, 37, 37);
+}
+
+h1 hr{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+#projects{
+    background-color: indigo;
+    color: white;
+}
+
+#projects h1{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: 1s;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#card img{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+#card{
+    transition: 0.5s; 
+}
+
+
+#cards a{
+    text-decoration: none;
+    color: white;   
+    transition: 1s; 
+}
+
+#card h2{
+text-align: center;
+background-color: #222325;
+padding: 10px;
+margin-top: -5px;
+transition: 1s;
+margin-bottom: 10px;
+font-weight: 400;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: 2px;
+}
+
+
+#contact{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #222325;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#contact h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#contact p{
+    font-size: 23px;
+    color: darkgray;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#socials a{
+    color: white;
+    transition: 1s;
+}
+
+#socials a i{
+    transition: 0.5s;
+}
+
+#socials a:hover i {
+    transform: translateY(10px);
+  }
+
+#social{
+    margin: 10px;
+}
+
+hr{
+    border: 2px solid red;
+}
+
+footer{
+min-height: 70px;
+background-color: #222325;
+color: white;
+font-size: larger;
+padding: 20px;
+}
+
+footer{
+ display: flex;
+ justify-content: space-between;
+}
+
+h2 span{
+   color: #222325; 
+   transition: all 1s;
+}
+
+
+#cards a:hover h2 span{
+    color:chocolate;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav{
+        max-width: 400px;
+        min-width: 100px;
+    }
+
+    #hero{
+        display: block;
+        min-width: 400px;
+    }
+
+    #hero img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -280px;
+        max-width: 300px;
+        padding-bottom: 50px;
+    }
+
+    #projects{
+        min-width:400px;
+    }
+
+    #cards a{
+        max-width: 350px;
+    }
+
+    #cards{
+        font-size: 20px;
+    }
+
+    #cards img{
+        max-width: 290px;
+    }
+
+    #card h2{
+        font-size: 20px;
+    }
+
+    #contact{
+        min-width: 400px;
+    }
+
+    #socials{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer{
+        width: 360px;
+        display: block;
+    }
+   
+    #hr-footer hr{
+        min-width:397px ;
+    }
+
+    #projects hr{
+        max-width: 100px;
+    }
+    
+    footer h3{
+        margin-bottom: 20px;
+    }
+  }

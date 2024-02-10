@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+html{
+    background-image: linear-gradient( 115deg, rgba(70, 70, 128, 0.9), rgba(136, 136, 206, 0.7) ), url(https://images.pexels.com/photos/19845833/pexels-photo-19845833/free-photo-of-sandy-beach-between-meadow-and-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Protest Riot', sans-serif;
+}
+#body{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    max-width: 750px;
+    border: none;
+    border-radius: 25px;
+    margin-left: auto;    
+    margin-right: auto;    
+}
+
+#body input{
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+#body input[type=text]:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+#heading{
+    text-align: center;
+}
+
+#labels{
+    display: flex;
+    flex-direction: column;
+}
+
+#labels label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+form{
+    background: rgba(106, 90, 205, 0.9);
+    color: white;
+    border-radius: 10px;
+    padding: 100px;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 25px;
+    padding-left: 20px;
+    padding: 5px 0 5px 20px;
+}
+
+select{
+    height: 40px;
+    padding: 10px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+form input[type=radio]{
+  min-width: 20px;
+  max-width: 150px;
+  height: 15px;
+}
+
+#currRole label{
+    display: block;
+    align-items: flex-start;
+}
+
+#improve label{
+    display: flex;
+    height: 30px;
+    font-size: larger;
+    
+}
+
+#improve input[type=checkbox]{
+    height: 18px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+textarea{
+    padding: 20px;
+    resize: none;
+    border-radius: 5px;
+    color: black;
+}
+
+#suggestions{
+display: flex;
+flex-direction: column;
+}
+
+button{
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #04aa6d;
+    cursor: pointer;
+    width: 100%;
+    transition: 1s;
+    border-radius: 5px;
+
+}
+
+button:hover{
+color: aliceblue;
+background-color: black;
+opacity: 0.5;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
